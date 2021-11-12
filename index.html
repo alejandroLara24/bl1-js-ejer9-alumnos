@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maestro-detalle</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <meta name="description" content="Ejercicio de Javascript">
+    <meta name="author" content="Juan Segura">
+    <meta name="keywords" content="JavaScript, Ejercicio, HTML5, DAW">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Alumnos</h1>
+        </header>
+
+        <!-- Zona para mostrar mensajes al usuario -->
+        <div class="row" id="messages"></div>
+
+        <div class="row">
+            <div class="col-sm-8">
+                <!-- Tabla de alumnos -->
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12" id="alumnos">
+                        <table class="table table-striped table-hover">
+                            <thead class="thead-dark bg-primary">
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Nombre</th>
+                                    <th>email</th>
+                                    <th>Fecha nac.</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Aquí insertaremos los alumnos-->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <form id="del-student">
+                    <fieldset>
+                        <legend>Borrar alumno</legend>
+                        <!-- Aquí los inputs y botones del form -->
+                        <!-- Mover -->
+                        <div class="form-group">
+                            <label for="name">Id:</label>
+                            <input type="text" class="form-control" id="id" required>
+                            <button type="submit" class="btn btn-default btn-primary">
+                                Borrar
+                            </button>
+                            </div>
+                    </fieldset>
+                </form>
+                <form id="new-student">
+                    <fieldset>
+                        <legend>Añadir alumno</legend>
+                        <!-- Aquí los inputs y botones del form -->
+                        <!-- Mover -->
+                        <div class="form-group">
+                            <label for="name">Nombre:</label>
+                            <input type="text" class="form-control" id="name" required minlength="10" maxlength="75">
+                        </div>
+                        <div class="form-group">
+                            <label for="surname">Apellido:</label>
+                            <input type="text" class="form-control" id="surname" required minlength="10" maxlength="75">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">email:</label>
+                            <input type="email" class="form-control" id="email" required minlength="8" maxlength="50">
+                        </div>
+                        <div class="form-group">
+                            <label for="fecnac">Fecha nac.:</label>
+                            <input type="date" class="form-control" id="fecnac" required>
+                        </div>
+                        <br>
+                        <button type="submit" class="btn btn-default btn-primary">Añadir</button>
+                        <button type="reset" class="btn btn-danger">Reset</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <script src="scripts/main.js"></script>
+</body>
+
+</html>

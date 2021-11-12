@@ -1,0 +1,110 @@
+{
+  "alumnos": [
+    {
+      "id": 1,
+      "nombre": "Carmelo",
+      "apellido": "Cotón",
+      "email": "alu1@batoi.edu",
+      "fecnac": "20010823",
+      "grupo": "0"
+    },
+    {
+      "id": 2,
+      "nombre": "Helen",
+      "apellido": "Chufe",
+      "email": "alu2@batoi.edu",
+      "fecnac": "20001203",
+      "grupo": "0"
+    },
+    {
+      "id": 3,
+      "nombre": "Alberto",
+      "apellido": "Cadiscos",
+      "email": "alu3@batoi.edu",
+      "fecnac": "20010823",
+      "grupo": 1
+    },
+    {
+      "id": 4,
+      "nombre": "Aitor",
+      "apellido": "Tilla",
+      "email": "alu4@batoi.edu",
+      "fecnac": "19990402",
+      "grupo": 2
+    },
+    {
+      "id": 5,
+      "nombre": "Borja",
+      "apellido": "Món",
+      "email": "alu5@batoi.edu",
+      "fecnac": "19961130",
+      "grupo": 2
+    },
+    {
+      "id": 6,
+      "nombre": "Chema",
+      "apellido": "Pamundi",
+      "email": "alu6@batoi.edu",
+      "fecnac": "19980905",
+      "grupo": 1
+    },
+    {
+      "id": 7,
+      "nombre": "Francisco",
+      "apellido": "Barde",
+      "email": "alu7@batoi.edu",
+      "fecnac": "20011109",
+      "grupo": 2
+    },
+    {
+      "id": 8,
+      "nombre": "Germán",
+      "apellido": "Tequilla",
+      "email": "alu8@batoi.edu",
+      "fecnac": "19981228",
+      "grupo": 3
+    },
+    {
+      "id": 9,
+      "nombre": "Josechu",
+      "apellido": "Letón",
+      "email": "alu9@batoi.edu",
+      "fecnac": "20020102",
+      "grupo": 3
+    },
+    {
+      "id": 10,
+      "nombre": "Estela",
+      "apellido": "Gartija",
+      "email": "alu10@batoi.edu",
+      "fecnac": "19970228",
+      "grupo": 4
+    }
+  ],
+  "grupos": [
+    {
+      "id": 1,
+      "cod": "DAW",
+      "nombre": "Diseño de Aplicaciones Web",
+      "familia": "Informática"
+    },
+    {
+      "id": 2,
+      "cod": "DAM",
+      "nombre": "Diseño de Aplicaciones Multiplataforma",
+      "familia": "Informática"
+    },
+    {
+      "id": 3,
+      "cod": "ASIX",
+      "nombre": "Administración de Sistemas Informáticos y Redes",
+      "familia": "Informática"
+    },
+    {
+      "id": 4,
+      "cod": "CAE",
+      "nombre": "Cuidados Auxiliares de Enfermería",
+      "familia": "Sanitaria"
+    }
+  ]
+}
